@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -22731,9 +22731,9 @@ TextureImporter:
       Overworld_1049: -859164694
       Overworld_896: 80281238
       Overworld_506: 2087094390
-      Overworld_939: 99126299
-      Overworld_900: 506420275
       Overworld_51: 2092813132
+      Overworld_653: -1808361408
+      Overworld_939: 99126299
       Overworld_473: -1990814632
       Overworld_767: -1745381002
       Overworld_375: -1766550923
@@ -22743,7 +22743,7 @@ TextureImporter:
       Overworld_79: -1410831415
       Overworld_1034: 421281146
       Overworld_359: -1130505633
-      Overworld_653: -1808361408
+      Overworld_900: 506420275
       Overworld_142: -1688563792
       Overworld_657: 1511937751
       Overworld_852: -1599086843
@@ -22938,12 +22938,12 @@ TextureImporter:
       Overworld_94: 374283310
       Overworld_285: -772003640
       Overworld_1008: 2051228151
-      Overworld_873: -1228090280
-      Overworld_472: -2048600209
+      Overworld_160: -54934935
       Overworld_424: 1958519765
+      Overworld_472: -2048600209
       Overworld_57: -2006533244
       Overworld_787: 59142400
-      Overworld_160: -54934935
+      Overworld_873: -1228090280
       Overworld_47: 912984217
       Overworld_185: -128213980
       Overworld_410: -1453155028
@@ -23216,13 +23216,13 @@ TextureImporter:
       Overworld_817: -1443497105
       Overworld_1036: 803635074
       Overworld_502: 1353578148
+      Overworld_446: -12740960
       Overworld_866: 1760830841
+      Overworld_452: -1204900814
       Overworld_303: -371089643
       Overworld_1052: 1013730340
-      Overworld_452: -1204900814
-      Overworld_317: -1972274606
       Overworld_396: -1787521135
-      Overworld_446: -12740960
+      Overworld_317: -1972274606
       Overworld_569: 1847310106
       Overworld_647: 1780820528
       Overworld_421: 1074152743

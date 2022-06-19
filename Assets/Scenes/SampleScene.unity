@@ -451,11 +451,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7003952255732752267, guid: 88d0caa4a33b6fb4ab1148521baf393f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.38
+      value: 5.48
       objectReference: {fileID: 0}
     - target: {fileID: 7003952255732752267, guid: 88d0caa4a33b6fb4ab1148521baf393f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.555
+      value: -12.48
       objectReference: {fileID: 0}
     - target: {fileID: 7003952255732752267, guid: 88d0caa4a33b6fb4ab1148521baf393f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -556,7 +556,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1936629199
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 892394711, guid: 27651b1d7b86c8c4b939a9320c1d746d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 16
+  speed: 15
 --- !u!95 &735349860
 Animator:
   serializedVersion: 4
@@ -1167,7 +1167,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1936629199
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 4
   m_Sprite: {fileID: -2013487406, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1517,8 +1517,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1407561135
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -1778793558, guid: a0fcbfc6e293fc14487f39989b3b2322, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1539,7 +1539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979702596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.97, y: -17.46, z: 0}
+  m_LocalPosition: {x: 14.01, y: -17.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1609,10 +1609,10 @@ MonoBehaviour:
   Health: 2
   EnemyName: Log
   BaseAttack: 1
-  moveSpeed: 4
+  moveSpeed: 5
   target: {fileID: 0}
   chaseRadius: 4
-  attackRadius: 1.2
+  attackRadius: 0.5
   homePosition: {fileID: 0}
   anim: {fileID: 0}
 --- !u!61 &1979702603
@@ -1802,11 +1802,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7003952255732752267, guid: 88d0caa4a33b6fb4ab1148521baf393f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.385
+      value: 6.485
       objectReference: {fileID: 0}
     - target: {fileID: 7003952255732752267, guid: 88d0caa4a33b6fb4ab1148521baf393f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.555
+      value: -12.48
       objectReference: {fileID: 0}
     - target: {fileID: 7003952255732752267, guid: 88d0caa4a33b6fb4ab1148521baf393f, type: 3}
       propertyPath: m_LocalPosition.z
