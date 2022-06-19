@@ -22,6 +22,8 @@ public class PlayerMovement : MonoBehaviour
         currentState = PlayerState.Walk;
         animator = GetComponent<Animator>();
         characterRigidbody = GetComponent<Rigidbody2D>();
+        animator.SetFloat("MoveX", 0);
+        animator.SetFloat("MoveY", -1);
     }
 
     void Update()
@@ -66,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveCharacter()
     {
+        change.Normalize();
         characterRigidbody.MovePosition(
             transform.position + change * speed * Time.deltaTime
         );
