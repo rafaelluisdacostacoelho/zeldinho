@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class SignalListener : MonoBehaviour 
 {
-    public Signal signal;
+    public GameSignal signal;
     public UnityEvent signalEvent;
 
     public void OnSignalRaised()
