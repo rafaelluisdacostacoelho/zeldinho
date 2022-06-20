@@ -512,7 +512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 735349856}
-  smoothing: 0.05
+  smoothing: 0.5
   maxPosition: {x: 15.43, y: -5}
   minPosition: {x: 9.58, y: -19.99}
 --- !u!1 &571844782
@@ -683,9 +683,9 @@ RectTransform:
   m_Father: {fileID: 1343441474}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -290, y: 115.2}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 118.71, y: -84.7}
   m_SizeDelta: {x: 200, y: 135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &604374237
@@ -2194,7 +2194,7 @@ MonoBehaviour:
   Health: 2
   EnemyName: Log
   BaseAttack: 1
-  moveSpeed: 3
+  moveSpeed: 2
   target: {fileID: 0}
   chaseRadius: 4
   attackRadius: 0.5

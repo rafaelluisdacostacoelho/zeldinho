@@ -73,6 +73,8 @@ SpriteAtlas:
   - {fileID: -1608650789, guid: a0fcbfc6e293fc14487f39989b3b2322, type: 3}
   - {fileID: -222904700, guid: a0fcbfc6e293fc14487f39989b3b2322, type: 3}
   - {fileID: -1591769412, guid: a0fcbfc6e293fc14487f39989b3b2322, type: 3}
+  - {fileID: 21300000, guid: 681e0d67be33e2b4293382f08decfcfb, type: 3}
+  - {fileID: 21300000, guid: 77e47d676a2b1fb4a8301126437c17ea, type: 3}
   - {fileID: -1381219032, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1790760874, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 975735920, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
@@ -1409,6 +1411,8 @@ SpriteAtlas:
   - Log_20
   - Log_21
   - Log_22
+  - zeldinho
+  - zeldinho
   - Objects_105
   - Objects_104
   - Objects_107
