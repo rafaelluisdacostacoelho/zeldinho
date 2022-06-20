@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 604374237}
   - component: {fileID: 604374239}
   m_Layer: 5
-  m_Name: HealtHolder
+  m_Name: HealthHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -738,14 +738,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab344a1e011aa1b4fb96bc1cd5855fbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  signal: {fileID: 0}
+  signal: {fileID: 11400000, guid: 6c0e977a478d436418396ca9fd7b542e, type: 2}
   signalEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 6
+      - m_Target: {fileID: 1078704492}
+        m_TargetAssemblyTypeName: HeartManager, Assembly-CSharp
+        m_MethodName: UpdateHearts
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -753,7 +753,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!1 &735349854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,6 +1346,7 @@ MonoBehaviour:
   halfHeart: {fileID: 277231935, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   emptyHeart: {fileID: -1481885703, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   heartContainers: {fileID: 11400000, guid: 00da669ec79b9524b98d9679b4c30a1d, type: 2}
+  playerCurrentHealth: {fileID: 11400000, guid: f7630eea8cc11224d870e33ac0b073e4, type: 2}
 --- !u!1 &1148715449
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,7 +2240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   knockTime: 0.2
-  damage: 0
+  damage: 1
 --- !u!1 &1992862708
 GameObject:
   m_ObjectHideFlags: 0
