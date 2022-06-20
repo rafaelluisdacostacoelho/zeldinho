@@ -492,7 +492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.71, y: -14.33, z: -20}
+  m_LocalPosition: {x: 10.73, y: -14.44, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -513,8 +513,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 735349856}
   smoothing: 0.5
-  maxPosition: {x: 15.43, y: -5}
-  minPosition: {x: 9.58, y: -19.99}
+  maxPosition: {x: 16, y: -5}
+  minPosition: {x: 8.9, y: -20}
 --- !u!1 &571844782
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 5
+  speed: 25
   currentHealth: {fileID: 11400000, guid: f7630eea8cc11224d870e33ac0b073e4, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 6c0e977a478d436418396ca9fd7b542e, type: 2}
 --- !u!95 &735349860
@@ -1956,7 +1956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8652216196767090804, guid: bc80cef51d0cdf3419ae61f300af9e6f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.11
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 8652216196767090804, guid: bc80cef51d0cdf3419ae61f300af9e6f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2012,7 +2012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8652216196767090805, guid: bc80cef51d0cdf3419ae61f300af9e6f, type: 3}
       propertyPath: playerChange.y
-      value: -2
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 8652216196767090806, guid: bc80cef51d0cdf3419ae61f300af9e6f, type: 3}
       propertyPath: m_Name
@@ -2450,7 +2450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8652216196767090804, guid: bc80cef51d0cdf3419ae61f300af9e6f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.45
+      value: -0.459
       objectReference: {fileID: 0}
     - target: {fileID: 8652216196767090804, guid: bc80cef51d0cdf3419ae61f300af9e6f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2501,8 +2501,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1822583048}
     - target: {fileID: 8652216196767090805, guid: bc80cef51d0cdf3419ae61f300af9e6f, type: 3}
+      propertyPath: cameraChange.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652216196767090805, guid: bc80cef51d0cdf3419ae61f300af9e6f, type: 3}
       propertyPath: playerChange.y
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8652216196767090806, guid: bc80cef51d0cdf3419ae61f300af9e6f, type: 3}
       propertyPath: m_Name
