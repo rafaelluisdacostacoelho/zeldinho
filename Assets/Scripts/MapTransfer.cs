@@ -25,7 +25,7 @@ public class MapTransfer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
             viewport.minPosition += cameraChange;
             viewport.maxPosition += cameraChange;
