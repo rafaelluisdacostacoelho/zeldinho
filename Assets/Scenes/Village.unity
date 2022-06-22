@@ -1315,7 +1315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 25
+  speed: 6
   currentHealth: {fileID: 11400000, guid: f7630eea8cc11224d870e33ac0b073e4, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 6c0e977a478d436418396ca9fd7b542e, type: 2}
 --- !u!95 &735349860
