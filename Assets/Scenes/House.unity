@@ -6257,9 +6257,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: fadeWait
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: fadeInPanel
+      value: 
+      objectReference: {fileID: 2076238148742820649, guid: 7b92879ee00d0724199841a273ff887f, type: 3}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: sceneToLoad
       value: Village
       objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: fadeOutPanel
+      value: 
+      objectReference: {fileID: 7911674425291996176, guid: 6658f60a5c11a0c4ba68d75eca81b254, type: 3}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: playerStorage
       value: 
