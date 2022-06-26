@@ -72,3 +72,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 
+  playerPosition: {x: 0, y: 0}
+  playerStorage: {fileID: 11400000, guid: ecf5c78f990abad4a934a34ed6553da0, type: 2}
+  fadeInPanel: {fileID: 2076238148742820649, guid: 7b92879ee00d0724199841a273ff887f, type: 3}
+  fadeOutPanel: {fileID: 7911674425291996176, guid: 6658f60a5c11a0c4ba68d75eca81b254, type: 3}
+  fadeWait: 0.3
