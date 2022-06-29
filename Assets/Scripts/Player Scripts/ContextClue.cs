@@ -5,6 +5,7 @@ using UnityEngine;
 public class ContextClue : MonoBehaviour
 {
     public GameObject contextClue;
+    public bool contextActive;
 
     public void Enable()
     {

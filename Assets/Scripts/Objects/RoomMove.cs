@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MapTransfer : MonoBehaviour
+public class RoomMove : MonoBehaviour
 {
     public Vector2 cameraChange;
+    //public Vector2 cameraMinChange;
+    //public Vector2 cameraMaxChange;
     public Vector3 playerChange;
     private CameraMovement viewport;
     public bool needText;
