@@ -67,6 +67,17 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
+    public void SetInteract()
+    {
+        currentState = PlayerState.Interact;
+    }
+
+    public void SetIdle()
+    {
+        currentState = PlayerState.Idle;
+    }
+
     public void RaiseItem()
     {
         if (playerInventory.currentItem != null)

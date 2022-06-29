@@ -9,6 +9,8 @@ public class TreasureChest : Interactable
     public Inventory playerInventory;
     public bool isOpen;
     public GameSignal raiseItem;
+    public GameSignal playerInteract;
+    public GameSignal playerIdle;
     public GameObject dialogBox;
     public Text dialogText;
     private Animator anim;
@@ -40,15 +42,20 @@ public class TreasureChest : Interactable
     public IEnumerator OpenChestCo()
     {
         contextOff.Raise();
+        playerInteract.Raise();
         anim.SetBool("Opened", true);
         dialogBox.SetActive(true);
+        dialogText.text = ".";
+        yield return new WaitForSeconds(0.5f);
+        dialogText.text = "..";
+        yield return new WaitForSeconds(0.5f);
         dialogText.text = "...";
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(0.5f);
         dialogText.text = contents.itemDescription;
         playerInventory.AddItem(contents);
         playerInventory.currentItem = contents;
+        playerIdle.Raise();
         raiseItem.Raise();
-
         isOpen = true;
     }
 
