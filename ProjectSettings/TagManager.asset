@@ -55,12 +55,12 @@ TagManager:
   - name: Sign
     uniqueID: 1327071711
     locked: 0
+  - name: Breakable
+    uniqueID: 4150845301
+    locked: 0
   - name: Enemy
     uniqueID: 2887406161
     locked: 0
   - name: Player
     uniqueID: 1936629199
-    locked: 0
-  - name: Breakable
-    uniqueID: 4150845301
     locked: 0

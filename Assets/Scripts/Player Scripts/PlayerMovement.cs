@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public FloatValue currentHealth;
     public GameSignal playerHealthSignal;
     public VectorValue startingPosition;
+    public Inventory playerInventory;
+    public SpriteRenderer receivedItemSprite;
 
     void Start()
     {
@@ -34,6 +36,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // Is the player in an interaction
+        if (currentState == PlayerState.Interact)
+        {
+            return;
+        }
         change = Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
@@ -54,7 +61,31 @@ public class PlayerMovement : MonoBehaviour
         yield return null;
         animator.SetBool("Attacking", false);
         yield return new WaitForSeconds(.3f);
-        currentState = PlayerState.Walk;
+        if (currentState != PlayerState.Interact)
+        {
+            currentState = PlayerState.Walk;
+        }
+    }
+
+    public void RaiseItem()
+    {
+        if (playerInventory.currentItem != null)
+        {
+            if (currentState != PlayerState.Interact)
+            {
+
+                animator.SetBool("ReceiveItem", true);
+                currentState = PlayerState.Interact;
+                receivedItemSprite.sprite = playerInventory.currentItem.itemSprite;
+            }
+            else
+            {
+                animator.SetBool("ReceiveItem", false);
+                currentState = PlayerState.Idle;
+                receivedItemSprite.sprite = null;
+                playerInventory.currentItem = null;
+            }
+        }
     }
 
     void UpdateAnimationAndMove()
@@ -87,7 +118,8 @@ public class PlayerMovement : MonoBehaviour
         if (currentHealth.runtimeValue > 0)
         {
             StartCoroutine(KnockCo(knockTime));
-        } else
+        }
+        else
         {
             gameObject.SetActive(false);
         }

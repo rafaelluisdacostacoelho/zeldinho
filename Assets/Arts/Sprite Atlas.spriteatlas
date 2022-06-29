@@ -593,6 +593,7 @@ SpriteAtlas:
   - {fileID: 445344924, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 414542162, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1838951261, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
+  - {fileID: 21300000, guid: 9d3575dac7d6ce646bc16c3b5f34b648, type: 3}
   - {fileID: -967227004, guid: 9dcae29b2786b8545a3f5767af9d19f2, type: 3}
   - {fileID: 605875239, guid: 9dcae29b2786b8545a3f5767af9d19f2, type: 3}
   - {fileID: 594127248, guid: 9dcae29b2786b8545a3f5767af9d19f2, type: 3}
@@ -1695,7 +1696,6 @@ SpriteAtlas:
   - {fileID: 2067758951, guid: 27651b1d7b86c8c4b939a9320c1d746d, type: 3}
   - {fileID: -427717224, guid: 27651b1d7b86c8c4b939a9320c1d746d, type: 3}
   - {fileID: -1789386594, guid: 27651b1d7b86c8c4b939a9320c1d746d, type: 3}
-  - {fileID: -1546706214, guid: 27651b1d7b86c8c4b939a9320c1d746d, type: 3}
   - {fileID: 2081477123, guid: 27651b1d7b86c8c4b939a9320c1d746d, type: 3}
   - {fileID: 33791371, guid: 27651b1d7b86c8c4b939a9320c1d746d, type: 3}
   - {fileID: -425801910, guid: 27651b1d7b86c8c4b939a9320c1d746d, type: 3}
@@ -2309,6 +2309,7 @@ SpriteAtlas:
   - Objects_92
   - Objects_91
   - Objects_90
+  - key
   - Character_Attack_8
   - Character_Attack_9
   - Character_Attack_6
@@ -3411,7 +3412,6 @@ SpriteAtlas:
   - character_10
   - character_59
   - character_11
-  - character_12
   - character_13
   - character_38
   - character_39
