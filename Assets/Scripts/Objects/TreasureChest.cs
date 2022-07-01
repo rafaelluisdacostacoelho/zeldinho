@@ -9,8 +9,7 @@ public class TreasureChest : Interactable
     public Inventory playerInventory;
     public bool isOpen;
     public GameSignal raiseItem;
-    public GameSignal playerInteract;
-    public GameSignal playerIdle;
+    
     public GameObject dialogBox;
     public Text dialogText;
     private Animator anim;

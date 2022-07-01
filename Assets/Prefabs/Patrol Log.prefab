@@ -255,6 +255,7 @@ MonoBehaviour:
   EnemyName: Patrol Log
   BaseAttack: 1
   moveSpeed: 3
+  deathEffect: {fileID: 3898423433900578414, guid: a5626a3da940a0a4594879b1e9612489, type: 3}
   target: {fileID: 0}
   chaseRadius: 4
   attackRadius: 0.5

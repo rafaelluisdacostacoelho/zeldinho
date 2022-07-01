@@ -467,7 +467,6 @@ SpriteAtlas:
   - {fileID: -1546653043, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 771265411, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1415364624, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: 115791790, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -2128993057, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1978339036, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1709902849, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
@@ -486,12 +485,10 @@ SpriteAtlas:
   - {fileID: -1963128573, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1193730498, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -295886313, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: 1228909846, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 2072772082, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -517173888, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -332158108, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 922471571, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: 670892096, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 476602093, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1000242954, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1219368433, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
@@ -504,12 +501,9 @@ SpriteAtlas:
   - {fileID: 1613320156, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 532840674, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1502206145, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: -222365597, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1338412463, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1838290257, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: -1941462100, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -841960686, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: 1358082704, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1311019359, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -2057010391, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 951281159, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
@@ -1592,7 +1586,6 @@ SpriteAtlas:
   - {fileID: 580390419, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1557746154, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 951339077, guid: d2558f5c97799e447850838273efe180, type: 3}
-  - {fileID: -758818044, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -562204192, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1722722634, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 241121798, guid: d2558f5c97799e447850838273efe180, type: 3}
@@ -1603,7 +1596,6 @@ SpriteAtlas:
   - {fileID: 1735030850, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1147922373, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1289336110, guid: d2558f5c97799e447850838273efe180, type: 3}
-  - {fileID: 948509017, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -945354535, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -865986153, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -128213980, guid: d2558f5c97799e447850838273efe180, type: 3}
@@ -1611,7 +1603,6 @@ SpriteAtlas:
   - {fileID: 526569100, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 641969773, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1889720511, guid: d2558f5c97799e447850838273efe180, type: 3}
-  - {fileID: 1180003451, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 201149898, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1207927416, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1082568761, guid: d2558f5c97799e447850838273efe180, type: 3}
@@ -1619,7 +1610,6 @@ SpriteAtlas:
   - {fileID: 1265513965, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 694256275, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 557126892, guid: d2558f5c97799e447850838273efe180, type: 3}
-  - {fileID: -730450444, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1261730153, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1777027712, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1848082993, guid: d2558f5c97799e447850838273efe180, type: 3}
@@ -1642,7 +1632,6 @@ SpriteAtlas:
   - {fileID: -1999696877, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1350220294, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1039932139, guid: d2558f5c97799e447850838273efe180, type: 3}
-  - {fileID: -1906996141, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1642497524, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1669501237, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1523561864, guid: d2558f5c97799e447850838273efe180, type: 3}
@@ -2183,7 +2172,6 @@ SpriteAtlas:
   - Objects_49
   - Objects_28
   - Objects_59
-  - Objects_29
   - Objects_58
   - Objects_40
   - Objects_41
@@ -2202,12 +2190,10 @@ SpriteAtlas:
   - Objects_51
   - Objects_69
   - Objects_21
-  - Objects_35
   - Objects_46
   - Objects_50
   - Objects_66
   - Objects_26
-  - Objects_34
   - Objects_47
   - Objects_57
   - Objects_67
@@ -2220,12 +2206,9 @@ SpriteAtlas:
   - Objects_55
   - Objects_65
   - Objects_25
-  - Objects_31
   - Objects_54
   - Objects_62
-  - Objects_30
   - Objects_63
-  - Objects_33
   - Objects_60
   - Objects_32
   - Objects_61
@@ -3308,7 +3291,6 @@ SpriteAtlas:
   - Overworld_662
   - Overworld_158
   - Overworld_146
-  - Overworld_174
   - Overworld_134
   - Overworld_126
   - Overworld_186
@@ -3319,7 +3301,6 @@ SpriteAtlas:
   - Overworld_663
   - Overworld_159
   - Overworld_145
-  - Overworld_175
   - Overworld_135
   - Overworld_121
   - Overworld_185
@@ -3327,7 +3308,6 @@ SpriteAtlas:
   - Overworld_612
   - Overworld_660
   - Overworld_144
-  - Overworld_172
   - Overworld_120
   - Overworld_184
   - Overworld_820
@@ -3335,7 +3315,6 @@ SpriteAtlas:
   - Overworld_611
   - Overworld_661
   - Overworld_675
-  - Overworld_173
   - Overworld_123
   - Overworld_183
   - Overworld_821
@@ -3358,7 +3337,6 @@ SpriteAtlas:
   - Overworld_667
   - Overworld_677
   - Overworld_149
-  - Overworld_171
   - Overworld_139
   - Overworld_181
   - Overworld_823

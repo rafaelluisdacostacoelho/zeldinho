@@ -78,7 +78,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1407561135
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -1778793558, guid: a0fcbfc6e293fc14487f39989b3b2322, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -176,6 +176,7 @@ MonoBehaviour:
   EnemyName: Log
   BaseAttack: 1
   moveSpeed: 2
+  deathEffect: {fileID: 3898423433900578414, guid: a5626a3da940a0a4594879b1e9612489, type: 3}
   target: {fileID: 0}
   chaseRadius: 4
   attackRadius: 0.5

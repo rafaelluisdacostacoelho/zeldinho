@@ -6,6 +6,8 @@ public class Interactable : MonoBehaviour
 {
     public GameSignal contextOn;
     public GameSignal contextOff;
+    public GameSignal playerInteract;
+    public GameSignal playerIdle;
     public bool playerInRange;
 
     void Start()
