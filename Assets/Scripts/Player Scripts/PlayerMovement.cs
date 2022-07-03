@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue startingPosition;
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
+    public GameSignal playerHit;
 
     void Start()
     {
@@ -118,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
     {
         change.Normalize();
         myRigidbody.MovePosition(
-            transform.position + change * speed * Time.deltaTime
+            transform.position + speed * Time.deltaTime * change
         );
     }
 
@@ -138,6 +139,7 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator KnockCo(float knockTime)
     {
+        playerHit.Raise();
         if (myRigidbody != null)
         {
             yield return new WaitForSeconds(knockTime);
