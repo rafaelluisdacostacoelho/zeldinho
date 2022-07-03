@@ -5,15 +5,4 @@ using UnityEngine;
 public class PowerUp : MonoBehaviour
 {
     public GameSignal powerUpSignal;
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
 }

@@ -1229,13 +1229,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_59
+      name: Coin_01
       rect:
         serializedVersion: 2
-        x: 2
-        y: 243
-        width: 11
-        height: 11
+        x: 0
+        y: 241
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1250,13 +1250,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_60
+      name: Coin_02
       rect:
         serializedVersion: 2
-        x: 18
-        y: 243
-        width: 10
-        height: 11
+        x: 15
+        y: 241
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1271,13 +1271,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_61
+      name: Coin_04
       rect:
         serializedVersion: 2
-        x: 51
-        y: 243
-        width: 10
-        height: 11
+        x: 48
+        y: 241
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2891,9 +2891,9 @@ TextureImporter:
       name: Objects_138
       rect:
         serializedVersion: 2
-        x: 7
+        x: 64
         y: 4
-        width: 120
+        width: 63
         height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2925,6 +2925,27 @@ TextureImporter:
       bones: []
       spriteID: 52a7847e9fc807841a8f917c62cd74b2
       internalID: 704819427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Coin_03
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 241
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9afe73f6b1fdf440bc20081f32e1721
+      internalID: -114505560
       vertices: []
       indices: 
       edges: []
@@ -2962,7 +2983,6 @@ TextureImporter:
       Objects_117: -343816469
       Objects_129: -1778125640
       Objects_116: 1704916920
-      Objects_29: 115791790
       Objects_74: -447825614
       Objects_83: -2121019188
       Objects_94: -86154220
@@ -3006,6 +3026,7 @@ TextureImporter:
       Objects_0: 521991065
       Objects_14: -242092953
       Objects_15: 1298834502
+      Coin_02: 1311019359
       Objects_2: 314776690
       Objects_21: -295886313
       Objects_105: -1381219032
@@ -3022,6 +3043,7 @@ TextureImporter:
       Objects_40: 1978339036
       Objects_38: 367517379
       Objects_77: 9367454
+      Coin_04: 951281159
       Objects_138: 1698696249
       Objects_51: -1963128573
       Objects_76: -1102891104
@@ -3034,6 +3056,7 @@ TextureImporter:
       Objects_39: 1136645178
       Objects_130: 1733460579
       Objects_36: -1716808831
+      Coin_03: 115791790
       Objects_50: -517173888
       Objects_133: 1591855842
       Objects_31: -222365597
@@ -3046,7 +3069,6 @@ TextureImporter:
       Objects_48: 1261222143
       Objects_85: 72705004
       Objects_75: 1449861682
-      Objects_61: 951281159
       Objects_102: -973882842
       Objects_30: -1941462100
       Objects_3: 31764657
@@ -3060,12 +3082,12 @@ TextureImporter:
       Objects_24: 701588482
       Objects_5: 277231935
       Objects_6: -268787356
-      Objects_60: 1311019359
       Objects_121: 1183012951
       Objects_80: -990797612
       Objects_139: 704819427
       Objects_18: 93766848
       Objects_44: 1713899339
+      Coin_01: 1415364624
       Objects_114: 1117030639
       Objects_32: -2057010391
       Objects_97: 1684591440
@@ -3074,7 +3096,6 @@ TextureImporter:
       Objects_108: -2065109988
       Objects_90: 1838951261
       Objects_1: 2924160
-      Objects_59: 1415364624
       Objects_47: 476602093
       Objects_91: 414542162
       Objects_103: -1745648812

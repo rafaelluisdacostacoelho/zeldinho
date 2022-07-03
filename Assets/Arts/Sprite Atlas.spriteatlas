@@ -466,7 +466,6 @@ SpriteAtlas:
   - {fileID: 1261222143, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1546653043, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 771265411, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: 1415364624, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -2128993057, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1978339036, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1709902849, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
@@ -504,9 +503,7 @@ SpriteAtlas:
   - {fileID: 1338412463, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1838290257, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -841960686, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: 1311019359, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -2057010391, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: 951281159, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -914169745, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 276641525, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -270717194, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
@@ -517,6 +514,10 @@ SpriteAtlas:
   - {fileID: 2924160, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 314776690, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 31764657, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
+  - {fileID: -114505560, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
+  - {fileID: 1311019359, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
+  - {fileID: 1415364624, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
+  - {fileID: 951281159, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1990005322, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1692403883, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1720962003, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
@@ -2171,7 +2172,6 @@ SpriteAtlas:
   - Objects_48
   - Objects_49
   - Objects_28
-  - Objects_59
   - Objects_58
   - Objects_40
   - Objects_41
@@ -2209,9 +2209,7 @@ SpriteAtlas:
   - Objects_54
   - Objects_62
   - Objects_63
-  - Objects_60
   - Objects_32
-  - Objects_61
   - Objects_8
   - Objects_9
   - Objects_4
@@ -2222,6 +2220,10 @@ SpriteAtlas:
   - Objects_1
   - Objects_2
   - Objects_3
+  - Coin_03
+  - Coin_02
+  - Coin_01
+  - Coin_04
   - Objects_112
   - Objects_113
   - Objects_110
