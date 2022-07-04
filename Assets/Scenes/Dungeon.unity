@@ -1252,7 +1252,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070283299}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.51, y: -8.88, z: -10}
+  m_LocalPosition: {x: -2.53, y: -9.32, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1275,6 +1275,9 @@ MonoBehaviour:
   smoothing: 0.5
   maxPosition: {x: 7.73, y: 5.01}
   minPosition: {x: -13.74, y: -10}
+  anim: {fileID: 0}
+  camMin: {fileID: 11400000, guid: 3201b19621811ba40b90797d79a722d9, type: 2}
+  camMax: {fileID: 11400000, guid: 2f7d316e0317b644b959e6097949870b, type: 2}
 --- !u!1 &1108262865
 GameObject:
   m_ObjectHideFlags: 0
@@ -31583,8 +31586,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: 8165989fcdd294d49be7c147f8bea3ef, type: 2}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: a0e45a82b915fd5499381ec6435e4845, type: 2}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: sceneToLoad
       value: Village
+      objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraNewMax.x
+      value: 15.86
+      objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraNewMax.y
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraNewMin.x
+      value: 8.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraNewMin.y
+      value: -44.99
       objectReference: {fileID: 0}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: playerPosition.x
@@ -31640,7 +31667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2559588417133431686, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: m_Name
-      value: SceneTransition
+      value: DungeonToVillage
       objectReference: {fileID: 0}
     - target: {fileID: 2559588417133431687, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: m_Size.x

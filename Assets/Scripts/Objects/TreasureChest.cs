@@ -40,6 +40,7 @@ public class TreasureChest : Interactable
 
     public IEnumerator OpenChestCo()
     {
+        isOpen = true;
         contextOff.Raise();
         playerInteract.Raise();
         anim.SetBool("Opened", true);
@@ -55,7 +56,6 @@ public class TreasureChest : Interactable
         playerInventory.currentItem = contents;
         playerIdle.Raise();
         raiseItem.Raise();
-        isOpen = true;
     }
 
     public void ChestAlreadyOpen()

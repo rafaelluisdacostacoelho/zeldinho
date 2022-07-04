@@ -795,7 +795,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -819,7 +819,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10, y: -15, z: -5}
+  m_LocalPosition: {x: 10, y: -15.27, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -843,6 +843,8 @@ MonoBehaviour:
   maxPosition: {x: 16, y: -5}
   minPosition: {x: 8.9, y: -20}
   anim: {fileID: 0}
+  camMin: {fileID: 11400000, guid: a0e45a82b915fd5499381ec6435e4845, type: 2}
+  camMax: {fileID: 11400000, guid: 8165989fcdd294d49be7c147f8bea3ef, type: 2}
 --- !u!95 &519420034
 Animator:
   serializedVersion: 4
@@ -1621,8 +1623,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 1955782379}
     m_Modifications:
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: 2f7d316e0317b644b959e6097949870b, type: 2}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: 3201b19621811ba40b90797d79a722d9, type: 2}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: sceneToLoad
       value: Dungeon
+      objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraNewMax.x
+      value: 8.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraNewMax.y
+      value: 4.68
+      objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraNewMin.x
+      value: -14.09
+      objectReference: {fileID: 0}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraNewMin.y
+      value: -9.98
       objectReference: {fileID: 0}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: playerPosition.x
@@ -1678,7 +1704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2559588417133431686, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: m_Name
-      value: SceneTransitionDungeon
+      value: VillageToDungeon
       objectReference: {fileID: 0}
     - target: {fileID: 2559588417133431687, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: m_Size.x
@@ -2183,6 +2209,14 @@ PrefabInstance:
       value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraMax
+      value: 
+      objectReference: {fileID: 11400000, guid: 8165989fcdd294d49be7c147f8bea3ef, type: 2}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
+      propertyPath: cameraMin
+      value: 
+      objectReference: {fileID: 11400000, guid: a0e45a82b915fd5499381ec6435e4845, type: 2}
+    - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: fadeInPanel
       value: 
       objectReference: {fileID: 2076238148742820649, guid: 7b92879ee00d0724199841a273ff887f, type: 3}
@@ -2252,7 +2286,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2559588417133431686, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: m_Name
-      value: SceneTransitionHouse
+      value: VillageToHouse
       objectReference: {fileID: 0}
     - target: {fileID: 2559588417133431687, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: m_Size.x
@@ -2353,7 +2387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086957673}
   m_Layer: 0
-  m_Name: Enemies
+  m_Name: Enemy Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
