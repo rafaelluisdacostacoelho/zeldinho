@@ -598,12 +598,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 30
   currentHealth: {fileID: 11400000, guid: f7630eea8cc11224d870e33ac0b073e4, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 6c0e977a478d436418396ca9fd7b542e, type: 2}
   startingPosition: {fileID: 11400000, guid: ecf5c78f990abad4a934a34ed6553da0, type: 2}
   playerInventory: {fileID: 11400000, guid: 3ec1aa27da340a54cab6b804608181f4, type: 2}
   receivedItemSprite: {fileID: 802134388}
+  playerHit: {fileID: 11400000, guid: b65f316592b048c4ca59c848e860720a, type: 2}
+  playerSpeed: {fileID: 11400000, guid: e777ef4ce87e69046aacc8d85b41eaa4, type: 2}
 --- !u!95 &8414435684015734136
 Animator:
   serializedVersion: 4

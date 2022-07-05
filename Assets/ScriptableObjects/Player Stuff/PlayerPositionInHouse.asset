@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 296a723b0acc3c7439f4c2af59f5522c, type: 3}
-  m_Name: CameraMin
+  m_Name: PlayerPositionInHouse
   m_EditorClassIdentifier: 
-  initialValue: {x: -14.09, y: -9.98}
-  defaultValue: {x: -14.09, y: -9.98}
+  initialValue: {x: -5.33, y: -1.4}
+  defaultValue: {x: -5.33, y: -1.4}

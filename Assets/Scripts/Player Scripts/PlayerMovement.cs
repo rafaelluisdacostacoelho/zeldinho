@@ -14,7 +14,6 @@ public enum PlayerState
 public class PlayerMovement : MonoBehaviour
 {
     public PlayerState currentState;
-    public float speed;
     private Rigidbody2D myRigidbody;
     private Vector3 change;
     private Animator animator;
@@ -24,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
     public GameSignal playerHit;
+    public FloatValue playerSpeed;
 
     void Start()
     {
@@ -119,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
     {
         change.Normalize();
         myRigidbody.MovePosition(
-            transform.position + speed * Time.deltaTime * change
+            transform.position + playerSpeed.runtimeValue * Time.deltaTime * change
         );
     }
 

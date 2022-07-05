@@ -2449,9 +2449,13 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8414435684015734143, guid: 9138e689586b19b45930c0be978442b0, type: 3}
+      propertyPath: playerSpeed
+      value: 
+      objectReference: {fileID: 11400000, guid: e777ef4ce87e69046aacc8d85b41eaa4, type: 2}
+    - target: {fileID: 8414435684015734143, guid: 9138e689586b19b45930c0be978442b0, type: 3}
       propertyPath: startingPosition
       value: 
-      objectReference: {fileID: 11400000, guid: ecf5c78f990abad4a934a34ed6553da0, type: 2}
+      objectReference: {fileID: 11400000, guid: 7be678b990c2267478849ddbbc6eccd5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9138e689586b19b45930c0be978442b0, type: 3}
 --- !u!1 &1530754216
@@ -6263,11 +6267,11 @@ PrefabInstance:
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: cameraMax
       value: 
-      objectReference: {fileID: 11400000, guid: 8165989fcdd294d49be7c147f8bea3ef, type: 2}
+      objectReference: {fileID: 11400000, guid: b960374bf4f81124c97bdc1e67f964ba, type: 2}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: cameraMin
       value: 
-      objectReference: {fileID: 11400000, guid: a0e45a82b915fd5499381ec6435e4845, type: 2}
+      objectReference: {fileID: 11400000, guid: bc6b42d3491742f4c8ad1f9d71ecde97, type: 2}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: fadeInPanel
       value: 
@@ -6286,19 +6290,19 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: ecf5c78f990abad4a934a34ed6553da0, type: 2}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: cameraNewMax.x
-      value: 16.11
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: cameraNewMax.y
-      value: -4.99
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: cameraNewMin.x
-      value: 8.9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: cameraNewMin.y
-      value: -20.01
+      value: -19
       objectReference: {fileID: 0}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: playerPosition.x

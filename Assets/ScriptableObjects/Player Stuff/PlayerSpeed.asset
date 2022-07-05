@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 296a723b0acc3c7439f4c2af59f5522c, type: 3}
-  m_Name: CameraMin
+  m_Script: {fileID: 11500000, guid: b88c7cace802cd04e9fec8b8d323aa97, type: 3}
+  m_Name: PlayerSpeed
   m_EditorClassIdentifier: 
-  initialValue: {x: -14.09, y: -9.98}
-  defaultValue: {x: -14.09, y: -9.98}
+  initialValue: 15
+  runtimeValue: 15

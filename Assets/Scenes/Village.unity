@@ -2231,7 +2231,7 @@ PrefabInstance:
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: playerStorage
       value: 
-      objectReference: {fileID: 11400000, guid: ecf5c78f990abad4a934a34ed6553da0, type: 2}
+      objectReference: {fileID: 11400000, guid: 7be678b990c2267478849ddbbc6eccd5, type: 2}
     - target: {fileID: -1021704613627684821, guid: 453a809a626d62c4db400f39d033dc33, type: 3}
       propertyPath: playerPosition.x
       value: 0.01
@@ -4388,6 +4388,10 @@ PrefabInstance:
       propertyPath: playerHit
       value: 
       objectReference: {fileID: 11400000, guid: b65f316592b048c4ca59c848e860720a, type: 2}
+    - target: {fileID: 8414435684015734143, guid: 9138e689586b19b45930c0be978442b0, type: 3}
+      propertyPath: playerSpeed
+      value: 
+      objectReference: {fileID: 11400000, guid: e777ef4ce87e69046aacc8d85b41eaa4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9138e689586b19b45930c0be978442b0, type: 3}
 --- !u!1001 &8652216198108058234
