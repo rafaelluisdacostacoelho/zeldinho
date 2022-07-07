@@ -6,13 +6,16 @@ public class AreaEnemy : Log
 
     public override void CheckDistance()
     {
+        if (currentState == EnemyState.Celebrate)
+        {
+            return;
+        }
         if ((Vector3.Distance(target.position,
                              transform.position) <= chaseRadius
-            || boundary.bounds.Contains(target.transform.position))
+            || boundary.OverlapPoint(target.transform.position))
             && Vector3.Distance(target.position,
                                 transform.position) > attackRadius)
         {
-            Debug.Log("ENTROU");
             if (currentState == EnemyState.Idle || currentState == EnemyState.Walk && currentState != EnemyState.Stagger)
             {
                 Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
@@ -22,8 +25,9 @@ public class AreaEnemy : Log
                 anim.SetBool("WakeUp", true);
             }
         }
-        else if (Vector3.Distance(target.position, transform.position) > chaseRadius
-                 || !boundary.bounds.Contains(target.transform.position))
+        else if (Vector3.Distance(target.position,
+                                  transform.position) > chaseRadius
+                 || !boundary.OverlapPoint(target.transform.position))
         {
             anim.SetBool("WakeUp", false);
         }
