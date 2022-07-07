@@ -25,7 +25,11 @@ public class Log : Enemy
 
     public virtual void CheckDistance()
     {
-        if (Vector3.Distance(target.position, transform.position) <= chaseRadius &&
+        if (currentState == EnemyState.Celebrate)
+        {
+            return;
+        }
+        else if (Vector3.Distance(target.position, transform.position) <= chaseRadius &&
             Vector3.Distance(target.position, transform.position) > attackRadius)
         {
             if (currentState == EnemyState.Idle || currentState == EnemyState.Walk && currentState != EnemyState.Stagger)
@@ -39,6 +43,15 @@ public class Log : Enemy
         }
         else if (Vector3.Distance(target.position, transform.position) > chaseRadius)
         {
+            anim.SetBool("WakeUp", false);
+        }
+    }
+
+    public void Celebrate()
+    {
+        if (EnemyState.Idle != currentState)
+        {
+            ChangeState(EnemyState.Celebrate);
             anim.SetBool("WakeUp", false);
         }
     }

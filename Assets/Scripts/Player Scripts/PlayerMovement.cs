@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
     public GameSignal playerHit;
+    public GameSignal playerDeath;
     public FloatValue playerSpeed;
 
     void Start()
@@ -133,6 +134,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            playerDeath.Raise();
             gameObject.SetActive(false);
         }
     }

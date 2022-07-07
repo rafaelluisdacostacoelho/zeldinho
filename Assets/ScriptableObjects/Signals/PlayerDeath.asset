@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b88c7cace802cd04e9fec8b8d323aa97, type: 3}
-  m_Name: PlayerSpeed
+  m_Script: {fileID: 11500000, guid: 376008daa06451545b3101b65157c67f, type: 3}
+  m_Name: PlayerDeath
   m_EditorClassIdentifier: 
-  initialValue: 35
-  runtimeValue: 35
+  listeners: []
