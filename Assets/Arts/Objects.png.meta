@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_24
+      name: Rock 1
       rect:
         serializedVersion: 2
         x: 260
@@ -3079,7 +3079,6 @@ TextureImporter:
       Objects_84: -1128984935
       Objects_134: -221157356
       Objects_27: 1017601574
-      Objects_24: 701588482
       Objects_5: 277231935
       Objects_6: -268787356
       Objects_121: 1183012951
@@ -3101,6 +3100,7 @@ TextureImporter:
       Objects_103: -1745648812
       Objects_110: 1720962003
       Objects_137: 1307949259
+      Rock 1: 701588482
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
