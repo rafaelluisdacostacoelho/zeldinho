@@ -2027,13 +2027,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_97
+      name: switch_up
       rect:
         serializedVersion: 2
         x: 0
         y: 160
-        width: 14
-        height: 31
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2048,13 +2048,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objects_98
+      name: switch_down
       rect:
         serializedVersion: 2
         x: 16
         y: 160
-        width: 14
-        height: 31
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2986,7 +2986,6 @@ TextureImporter:
       Objects_74: -447825614
       Objects_83: -2121019188
       Objects_94: -86154220
-      Objects_98: 1246085653
       Objects_28: 771265411
       Objects_126: 585694722
       Objects_73: -352620609
@@ -3021,6 +3020,7 @@ TextureImporter:
       Objects_123: 1022667061
       Objects_58: -2128993057
       Objects_109: -1273265272
+      switch_down: 1246085653
       Objects_95: 1437055888
       Objects_57: -1000242954
       Objects_0: 521991065
@@ -3083,6 +3083,7 @@ TextureImporter:
       Objects_5: 277231935
       Objects_6: -268787356
       Objects_121: 1183012951
+      switch_up: 1684591440
       Objects_80: -990797612
       Objects_139: 704819427
       Objects_18: 93766848
@@ -3090,7 +3091,6 @@ TextureImporter:
       Coin_01: 1415364624
       Objects_114: 1117030639
       Objects_32: -2057010391
-      Objects_97: 1684591440
       Objects_46: 2072772082
       Objects_86: 1085966789
       Objects_108: -2065109988
