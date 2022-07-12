@@ -496,7 +496,6 @@ SpriteAtlas:
   - {fileID: -711004740, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -193878117, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1867165202, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
-  - {fileID: 701588482, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1716808831, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1613320156, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 532840674, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
@@ -520,6 +519,7 @@ SpriteAtlas:
   - {fileID: 1311019359, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1415364624, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 951281159, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
+  - {fileID: 701588482, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: -1990005322, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1692403883, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
   - {fileID: 1720962003, guid: 45dc779ae7d59d943af9c69455ad3dfa, type: 3}
@@ -2202,7 +2202,6 @@ SpriteAtlas:
   - Objects_37
   - Objects_56
   - Objects_64
-  - Objects_24
   - Objects_36
   - Objects_55
   - Objects_65
@@ -2226,6 +2225,7 @@ SpriteAtlas:
   - Coin_02
   - Coin_01
   - Coin_04
+  - Rock 1
   - Objects_112
   - Objects_113
   - Objects_110

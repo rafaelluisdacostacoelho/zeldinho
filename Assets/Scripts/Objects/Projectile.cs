@@ -11,7 +11,7 @@ public class Projectile : MonoBehaviour
     [Header("Lifetime")]
     public float lifetime;
     private float lifetimeSeconds;
-    private Rigidbody2D myRigidbody;
+    public Rigidbody2D myRigidbody;
 
     void Start()
     {

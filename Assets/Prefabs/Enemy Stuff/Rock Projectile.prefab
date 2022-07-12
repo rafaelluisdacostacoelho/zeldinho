@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1855659308995511905}
   - component: {fileID: 1855659308995511904}
   - component: {fileID: 1855659308995511907}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rock Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,3 +155,4 @@ MonoBehaviour:
   moveSpeed: 2
   directionToMove: {x: 0, y: 0}
   lifetime: 2
+  myRigidbody: {fileID: 1855659308995511905}
