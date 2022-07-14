@@ -762,11 +762,9 @@ SpriteAtlas:
   - {fileID: -1849053910, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 232602290, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1113272645, guid: d2558f5c97799e447850838273efe180, type: 3}
-  - {fileID: -1846265481, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1641178016, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1730085831, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -96829351, guid: d2558f5c97799e447850838273efe180, type: 3}
-  - {fileID: -786580207, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1860102284, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1296593766, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 557802147, guid: d2558f5c97799e447850838273efe180, type: 3}
@@ -872,6 +870,7 @@ SpriteAtlas:
   - {fileID: -1803402046, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 322004891, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1179049970, guid: d2558f5c97799e447850838273efe180, type: 3}
+  - {fileID: -786580207, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 867256861, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -17959364, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1167177825, guid: d2558f5c97799e447850838273efe180, type: 3}
@@ -1557,6 +1556,7 @@ SpriteAtlas:
   - {fileID: 1399240031, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -1754701980, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1696172609, guid: d2558f5c97799e447850838273efe180, type: 3}
+  - {fileID: -1846265481, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1548325724, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: 1903416840, guid: d2558f5c97799e447850838273efe180, type: 3}
   - {fileID: -2065505514, guid: d2558f5c97799e447850838273efe180, type: 3}
@@ -2468,11 +2468,9 @@ SpriteAtlas:
   - Overworld_249
   - Overworld_215
   - Overworld_214
-  - Overworld_213
   - Overworld_212
   - Overworld_228
   - Overworld_259
-  - Overworld_211
   - Overworld_229
   - Overworld_6
   - Overworld_258
@@ -2578,6 +2576,7 @@ SpriteAtlas:
   - Overworld_578
   - Overworld_40
   - Overworld_12
+  - DoorClosed
   - Overworld_88
   - Overworld_589
   - Overworld_509
@@ -3263,6 +3262,7 @@ SpriteAtlas:
   - Overworld_882
   - Overworld_748
   - Overworld_874
+  - DoorOpened
   - Overworld_155
   - Overworld_141
   - Overworld_131

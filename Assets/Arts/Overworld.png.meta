@@ -4442,7 +4442,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_211
+      name: DoorClosed
       rect:
         serializedVersion: 2
         x: 288
@@ -4484,7 +4484,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Overworld_213
+      name: DoorOpened
       rect:
         serializedVersion: 2
         x: 320
@@ -22591,7 +22591,6 @@ TextureImporter:
       Overworld_5: 1575414094
       Overworld_93: 1211506392
       Overworld_530: 328759578
-      Overworld_211: -786580207
       Overworld_417: 1028814599
       Overworld_1048: 196247399
       Overworld_25: 888168011
@@ -22626,19 +22625,19 @@ TextureImporter:
       Overworld_1049: -859164694
       Overworld_896: 80281238
       Overworld_506: 2087094390
-      Overworld_653: -1808361408
       Overworld_939: 99126299
       Overworld_900: 506420275
+      Overworld_51: 2092813132
       Overworld_473: -1990814632
-      Overworld_779: -1038265037
+      Overworld_767: -1745381002
       Overworld_375: -1766550923
       Overworld_688: 704007750
-      Overworld_767: -1745381002
+      Overworld_779: -1038265037
       Overworld_858: -1418182543
       Overworld_79: -1410831415
       Overworld_1034: 421281146
       Overworld_359: -1130505633
-      Overworld_51: 2092813132
+      Overworld_653: -1808361408
       Overworld_142: -1688563792
       Overworld_657: 1511937751
       Overworld_852: -1599086843
@@ -22771,7 +22770,6 @@ TextureImporter:
       Overworld_772: -1903689294
       Overworld_635: -286406369
       Overworld_234: -243345035
-      Overworld_213: -1846265481
       Overworld_139: 1642497524
       Overworld_698: 1769505233
       Overworld_982: 1439972891
@@ -22833,14 +22831,14 @@ TextureImporter:
       Overworld_94: 374283310
       Overworld_285: -772003640
       Overworld_1008: 2051228151
-      Overworld_160: -54934935
       Overworld_873: -1228090280
       Overworld_472: -2048600209
+      Overworld_424: 1958519765
       Overworld_57: -2006533244
       Overworld_787: 59142400
+      Overworld_160: -54934935
       Overworld_47: 912984217
       Overworld_185: -128213980
-      Overworld_424: 1958519765
       Overworld_410: -1453155028
       Overworld_233: -237321584
       Overworld_260: -2108520303
@@ -22922,6 +22920,7 @@ TextureImporter:
       Overworld_1007: -670837483
       Overworld_1009: -859748356
       Overworld_1072: 1278497207
+      DoorClosed: -786580207
       Overworld_946: 418718190
       Overworld_897: 959768474
       Overworld_81: -1806702888
@@ -23111,13 +23110,13 @@ TextureImporter:
       Overworld_817: -1443497105
       Overworld_1036: 803635074
       Overworld_502: 1353578148
+      Overworld_866: 1760830841
       Overworld_303: -371089643
-      Overworld_446: -12740960
-      Overworld_1052: 1013730340
       Overworld_452: -1204900814
+      Overworld_446: -12740960
       Overworld_317: -1972274606
       Overworld_396: -1787521135
-      Overworld_866: 1760830841
+      Overworld_1052: 1013730340
       Overworld_569: 1847310106
       Overworld_647: 1780820528
       Overworld_421: 1074152743
@@ -23175,14 +23174,13 @@ TextureImporter:
       Overworld_73: -865107820
       Overworld_88: 867256861
       Overworld_151: 193569052
-      Overworld_432: -1513578000
-      Overworld_836: -1530169919
-      Overworld_361: 926262961
       Overworld_928: 189187589
+      Overworld_836: -1530169919
+      Overworld_432: -1513578000
+      Overworld_351: 2105704389
       Overworld_454: -442749721
       Overworld_1015: -878544216
       Overworld_802: 1229638325
-      Overworld_351: 2105704389
       Overworld_528: -1822901657
       Overworld_449: 2118091891
       Overworld_832: 129529972
@@ -23191,6 +23189,7 @@ TextureImporter:
       Overworld_739: -772403897
       Overworld_123: 1261730153
       Overworld_518: 819501653
+      Overworld_361: 926262961
       Overworld_148: -1212297761
       Overworld_882: 1399240031
       Overworld_157: -1994955214
@@ -23426,6 +23425,7 @@ TextureImporter:
       Overworld_137: 1522628680
       Overworld_296: 1384074887
       Overworld_809: -748356024
+      DoorOpened: -1846265481
       Overworld_65: 1318218958
       Overworld_960: -1370071091
       Overworld_532: 2131018051

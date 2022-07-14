@@ -18,6 +18,7 @@ public class Door : Interactable
     public SpriteRenderer doorSprite;
     public BoxCollider2D physicsCollider;
     public Sprite doorOpen;
+    public Sprite doorClose;
 
     private void Update()
     {
@@ -36,7 +37,6 @@ public class Door : Interactable
 
     public void Open()
     {
-        // doorSprite.enabled = false;
         open = true;
         physicsCollider.enabled = false;
         doorSprite.sprite = doorOpen;
@@ -44,6 +44,8 @@ public class Door : Interactable
 
     public void Close()
     {
-        
+        open = false;
+        physicsCollider.enabled = true;
+        doorSprite.sprite = doorClose;
     }
 }

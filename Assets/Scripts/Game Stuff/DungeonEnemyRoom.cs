@@ -2,12 +2,39 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Room : MonoBehaviour
+public class DungeonEnemyRoom : DungeonRoom
 {
-    public Enemy[] enemies;
-    public Pot[] pots;
+    public Door[] doors;
 
-    public virtual void OnTriggerEnter2D(Collider2D other)
+    public void CheckEnemies()
+    {
+        for(int i = 0; i < enemies.Length; i++)
+        {
+            if (enemies[i].gameObject.activeInHierarchy && i < enemies.Length - 1)
+            {
+                return;
+            }
+        }
+        OpenDoors();
+    }
+
+    public void CloseDoors()
+    {
+        for (int i = 0; i < doors.Length; i++)
+        {
+            doors[i].Close();
+        }
+    }
+
+    public void OpenDoors()
+    {
+        for (int i = 0; i < doors.Length; i++)
+        {
+            doors[i].Open();
+        }
+    }
+
+    public override void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
@@ -16,14 +43,15 @@ public class Room : MonoBehaviour
             {
                 ChangeActivation(enemies[i], true);
             }
-            for(int i = 0; i < pots.Length; i++)
+            for (int i = 0; i < pots.Length; i++)
             {
                 ChangeActivation(pots[i], true);
             }
         }
+        CloseDoors();
     }
 
-    public virtual void OnTriggerExit2D(Collider2D other)
+    public override void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
@@ -37,10 +65,5 @@ public class Room : MonoBehaviour
                 ChangeActivation(pots[i], false);
             }
         }
-    }
-
-    public void ChangeActivation(Component component, bool activation)
-    {
-        component.gameObject.SetActive(activation);
     }
 }
