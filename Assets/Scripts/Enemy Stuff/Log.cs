@@ -6,7 +6,6 @@ public class Log : Enemy
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
-    public Transform homePosition;
     public Animator anim;
 
     void Start()

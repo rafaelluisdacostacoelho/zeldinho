@@ -21,6 +21,7 @@ public class Enemy : MonoBehaviour
     public string EnemyName;
     public int BaseAttack;
     public float moveSpeed;
+    public Vector3 homePosition;
 
     [Header("Death Effects")]
     public GameObject deathEffect;
@@ -29,6 +30,11 @@ public class Enemy : MonoBehaviour
     private void Awake()
     {
         Health = maxHealt.initialValue;
+    }
+
+    private void OnEnable()
+    {
+        transform.position = homePosition;
     }
 
     private void TakeDamage(float damage)
