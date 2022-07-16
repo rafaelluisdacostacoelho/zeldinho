@@ -8,7 +8,7 @@ public class DungeonEnemyRoom : DungeonRoom
 
     public void CheckEnemies()
     {
-        for(int i = 0; i < enemies.Length; i++)
+        for (int i = 0; i < enemies.Length; i++)
         {
             if (enemies[i].gameObject.activeInHierarchy && i < enemies.Length - 1)
             {
@@ -47,8 +47,9 @@ public class DungeonEnemyRoom : DungeonRoom
             {
                 ChangeActivation(pots[i], true);
             }
+            CloseDoors();
+            virtualCamera.SetActive(true);
         }
-        CloseDoors();
     }
 
     public override void OnTriggerExit2D(Collider2D other)
@@ -64,6 +65,7 @@ public class DungeonEnemyRoom : DungeonRoom
             {
                 ChangeActivation(pots[i], false);
             }
+            virtualCamera.SetActive(false);
         }
     }
 }
